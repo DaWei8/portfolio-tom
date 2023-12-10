@@ -1,0 +1,270 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 56px;
+  font-family: "Baloo Paaji 2", cursive;
+  font-weight: 600;
+  color: #444;
+}
+h2 {
+  font-size: 42px;
+  font-family: "Baloo Paaji 2", cursive;
+  color: #8755ae;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: "Baloo Paaji 2", cursive;
+  color: #8755ae;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+/* Navbar-section */
+
+.navbar {
+  font-family: "Baloo Paaji 2", cursive;
+  background: linear-gradient(
+    0deg,
+    rgba(114, 97, 184, 1) 100%,
+    rgba(103, 85, 174, 1) 100%
+  );
+}
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 500;
+}
+.navbar-item {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Hero section */
+#hero-section {
+  height: 750px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(112, 89, 203, 1) 55%,
+    rgba(114, 97, 184, 1) 100%
+  );
+}
+img.lighteff {
+  height: 650px;
+  width: 100%;
+}
+#hero-text {
+  position: absolute;
+  top: 270px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#hero-text h2 {
+  color: #444;
+}
+#hero-text button {
+  color: white;
+  background-color: #8755ae;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding: 9px 18px;
+  border-radius: 22px;
+  border: 0px solid;
+}
+#hero-text button:hover {
+  color: white;
+  background-color: #684086;
+}
+
+/* About me section */
+.about {
+  padding: 0px 250px 200px;
+  text-align: left;
+}
+.about-text {
+  padding: 200px 0px 0px 25px;
+}
+img.messi {
+  width: auto;
+  float: left;
+  margin-right: 30px;
+}
+button {
+  color: #8755ae;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding: 9px 18px;
+  border-radius: 22px;
+  border: 1px solid #8755ae;
+}
+button:hover {
+  color: white;
+  background-color: #8755ae;
+}
+
+/* Skills section */
+.skills {
+  padding-top: 100px;
+  padding-bottom: 300px;
+  border-top: 1px solid #8755ae77;
+}
+.card {
+  margin: 15px 15px 0px;
+  padding-bottom: 15px;
+  height: 450px;
+  transition: 0.5s;
+}
+.card:hover {
+  height: auto;
+}
+.card h3 {
+  margin-top: 75%;
+}
+.hidden {
+  display: none;
+}
+.card:hover h3 {
+  margin-top: 15%;
+  transition: margin-top 1s;
+}
+.card:hover .hidden {
+  display: block;
+  transition: display 1s;
+}
+.card:hover ~ .skills {
+  padding-bottom: 100px;
+}
+/* .card:hover  */
+
+/* testimonial section */
+.testimonials {
+  padding-top: 100px;
+  border-top: 1px solid #8755ae77;
+  padding-bottom: 150px;
+}
+.commentbox {
+  padding: 10px;
+  border-radius: 15px;
+  text-align: left;
+  margin: 15px;
+  overflow: auto;
+}
+
+.cspic {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.comments {
+  overflow: auto;
+}
+
+/* Contact me section */
+.contact-me {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.central {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.form-top,
+.form-bottom {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #f2f2f233;
+}
+textarea {
+  width: 100%;
+  height: 90px;
+  border-radius: 5px;
+  background-color: #f2f2f233;
+}
+
+/* footer section */
+.footer {
+  background-color: #8755ae;
+  color: white;
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h2 {
+  color: white;
+}
+.footer h5 {
+  font-size: 16px;
+}
+.footP {
+  color: white;
+}
+.faf {
+  padding: 4% 4%;
+}
+.footerbtn {
+  font-size: 42px;
+  font-weight: 600px;
+  color: #444;
+}
+.rightfooter,
+.leftfooter {
+  text-align: left;
+}
+
+/* frontend page  */
+.front {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+}
+.skillcontent {
+  display: none;
+}
+.skill-content {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.skill-content > * {
+  margin: 20px;
+}
+.skill-content button {
+  color: white;
+  border-radius: 0px;
+  width: 100%;
+  background-color: #8755ae;
+  text-align: center;
+}
+.skill-content button:hover {
+  background-color: #684086;
+}
+.skill-content img {
+  width: 100%;
+  height: auto;
+}
